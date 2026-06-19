@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Presentación Personal</title>
+
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+
+    <link rel="stylesheet"
+    href="{% static 'inicio/css/style.css' %}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+
+        <div class="profile-img">
+                <img src="https://pbs.twimg.com/media/EoaNWwjXUAIyB56.jpg" class= "profile-img"alt="Foto de Perfil">
+                
+        </div>
+
+        <h1>Luis David Garcia Alas</h1>
+
+        <p>
+            Estudiante de Ingeniería en Sistemas
+        </p>
+
+    </header>
+
+    <section class="card card-blue">
+
+        <h2>Sobre Mí</h2>
+
+        <p>
+            Soy estudiante de Ingeniería en Sistemas Computacionales
+            con interés en el desarrollo web, bases de datos, programación móvil y
+            ciberseguridad. Actualmente trabajo con tecnologías como
+            Django, Laravel, MySQL y Android Studio.
+        </p>
+
+    </section>
+
+    <section class="card card-green">
+
+        <h2>Habilidades</h2>
+
+        <ul class="skills">
+            <li>Python y Django</li>
+            <li>PHP y Laravel</li>
+            <li>HTML, CSS y JavaScript</li>
+            <li>MySQL y SQL Server</li>
+            <li>Android Studio</li>
+            <li>Redes Cisco</li>
+        </ul>
+
+    </section>
+
+    <section class="card card-orange">
+
+        <h2>Proyectos</h2>
+
+        <p>
+            He desarrollado aplicaciones web utilizando Laravel y ASP.NET,
+            sistemas CRUD, aplicaciones Android con Jetpack Compose y
+            proyectos académicos relacionados con redes y seguridad
+            informática.
+        </p>
+
+    </section>
+
+    <section class="card">
+
+        <h2>Contacto</h2>
+
+        <div class="contact-grid">
+
+            <div class="contact-item">
+                📧 davalas.343@gmail.com
+            </div>
+
+            <div class="contact-item">
+                📱 +504 9842-4811
+            </div>
+
+            <div class="contact-item">
+                🌎 Honduras 🌍
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+</body>
+</html>
