@@ -1,0 +1,8 @@
+env/
+venv/
+   # Dependencias
+node_modules/
+__pycache__/
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
